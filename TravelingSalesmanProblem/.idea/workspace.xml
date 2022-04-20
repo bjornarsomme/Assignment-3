@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afc116cb-78ed-4cda-a3c7-cbf2e4c0ddee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/NetworkManagement/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Assignment3/NetworkManagement/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/TravelingSalesPerson/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/TravelingSalesPerson/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/TravelingSalesPerson/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/TravelingSalesPerson/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/TravelingSalesPerson/QueueObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Assignment3/TravelingSalesPerson/Vertex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/NetworkManagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/NetworkManagement/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="afc116cb-78ed-4cda-a3c7-cbf2e4c0ddee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
