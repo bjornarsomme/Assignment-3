@@ -33,8 +33,23 @@ public class Main {
         graph.addEdge(e, f, 12);
 
         Dijkstra.shortestPathBetween(graph, a, b);
-        Dijkstra.shortestPathBetween(graph, d, f);
+        Dijkstra.shortestPathBetween(graph, a, c);
+        Dijkstra.shortestPathBetween(graph, a, d);
+        Dijkstra.shortestPathBetween(graph, a, e);
+        Dijkstra.shortestPathBetween(graph, a, f);
+
+        Dijkstra.shortestPathBetween(graph, b, c);
+        Dijkstra.shortestPathBetween(graph, b, d);
+        Dijkstra.shortestPathBetween(graph, b, e);
+        Dijkstra.shortestPathBetween(graph, b, f);
+
+        Dijkstra.shortestPathBetween(graph, c, d);
         Dijkstra.shortestPathBetween(graph, c, e);
-        Dijkstra.shortestPathBetween(graph, f, a);
+        Dijkstra.shortestPathBetween(graph, c, f);
+
+        Dijkstra.shortestPathBetween(graph, d, e);
+        Dijkstra.shortestPathBetween(graph, d, f);
+
+        Dijkstra.shortestPathBetween(graph, e, f);
     }
 }
