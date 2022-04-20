@@ -1,4 +1,4 @@
-package TravelingSalesPerson;
+package NetworkManagement;
 
 public class QueueObject implements Comparable<QueueObject>{
 

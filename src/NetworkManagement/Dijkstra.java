@@ -1,4 +1,4 @@
-package TravelingSalesPerson;
+package NetworkManagement;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ public class Dijkstra {
     public static Dictionary[] dijkstra(Graph graph, Vertex start){
         Dictionary<String, Integer> distances = new Hashtable<>();
         Dictionary<String, Vertex> previous = new Hashtable<>();
-        PriorityQueue<QueueObject> queue = new PriorityQueue<QueueObject>();
+        PriorityQueue<QueueObject> queue = new PriorityQueue<>();
         queue.add(new QueueObject(start, 0));
 
         for(Vertex v : graph.getVertices()){

@@ -1,10 +1,7 @@
-package TravelingSalesPerson;
+package NetworkManagement;
 
 import java.util.ArrayList;
 
-/**
- * Sets up the graph which sets up the vertices(cities) and edged(connections/routes)
- */
 public class Graph {
 
     private ArrayList<Vertex> vertices;

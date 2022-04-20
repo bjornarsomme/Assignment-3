@@ -1,10 +1,7 @@
-package TravelingSalesPerson;
+package NetworkManagement;
 
 import java.util.ArrayList;
 
-/**
- *      The Nodes of the Graph. Represents the cities.
- */
 public class Vertex {
 
     private ArrayList<Edge> edges;

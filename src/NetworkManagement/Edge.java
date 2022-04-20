@@ -1,8 +1,5 @@
-package TravelingSalesPerson;
+package NetworkManagement;
 
-/**
- *      Connections between the vertices, representing the route/connection between two vertices
- */
 public class Edge {
 
     private Vertex start;
