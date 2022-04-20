@@ -32,9 +32,8 @@ public class Main {
 
         graph.addEdge(e, f, 12);
 
-
         Dijkstra.shortestPathBetween(graph, a, b);
-        Dijkstra.shortestPathBetween(graph, b, f);
+        Dijkstra.shortestPathBetween(graph, d, f);
         Dijkstra.shortestPathBetween(graph, c, e);
         Dijkstra.shortestPathBetween(graph, f, a);
     }

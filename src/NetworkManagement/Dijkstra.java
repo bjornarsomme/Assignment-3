@@ -38,7 +38,7 @@ public class Dijkstra {
         Dictionary distances = dijkstraDicts[0];
         Dictionary previous = dijkstraDicts[1];
         Integer distance = (Integer) distances.get(targetVertex.getData());
-        System.out.println("Shortest Distance between " + startingVertex.getData() + " and " + targetVertex.getData());
+        System.out.println("Shortest Distance between " + startingVertex.getData() + " and " + targetVertex.getData() + ":");
         System.out.println(distance);
 
         ArrayList<Vertex> path = new ArrayList<>();
@@ -47,10 +47,11 @@ public class Dijkstra {
             path.add(0,v);
             v = (Vertex) previous.get(v.getData());
         }
-        System.out.println("Shortest Path");
+        System.out.println("Path:");
         for (Vertex pathVertex: path){
             System.out.println(pathVertex.getData());
         }
+        System.out.println();
     }
 
     public static void dijkstraResultPrinter(Dictionary[] d){
